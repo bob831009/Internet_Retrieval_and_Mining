@@ -1,0 +1,33 @@
+============================
+IR Final Project README,
+	written by Kuen-Han Tsai
+============================
+
+------------
+I. File List
+------------
+
+1. train.json 		50% raw data
+2. valid.json 		20% raw data
+3. test.json 		30% raw data
+4. vocab.json 		contains all words 
+5. stopwords.json 	
+6. README
+7. example.json 	10 example docs
+
+----------------
+II. Notification
+----------------
+
+1. Data Date range: 2016-01-01 ~ 2016-04-30
+
+2. stopword list is not good enough, we need to expand it in near future.
+
+3. I did not remove low-frequency and high-frequency words from vocab.json.
+	Instead, vocab.json contains all words that occur in the raw data.
+
+4. I have extracted 'tag' from each document and those term tags can represent
+	the document.
+
+5. Instead of opening the raw data directly, you have to use python or ipython 
+	to read the example.json.
